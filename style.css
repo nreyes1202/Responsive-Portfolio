@@ -215,3 +215,20 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+/*need to fix padding on 980-width screen*/ 
+
+@media screen and (max-width: 980px) { 
+    .main-container {
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    #masthead {
+        position: static;
+    }
+}
